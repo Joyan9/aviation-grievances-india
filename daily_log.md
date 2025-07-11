@@ -20,3 +20,24 @@
 
 ### Next Steps
 - Need to check how to avoid deduplication
+
+
+## July 10th, 2025
+- Nothing major accomplished
+
+### Issues faced
+- Getting an error on partitioning
+
+### Next Steps
+- Need to read dlt docs on partitioning and try out different approaches
+
+## July 11th, 2025
+- Figured out how to partition with dlt
+- Created the streamlit based dashboard but purely using claude
+
+### Issues faced
+- Nothing major
+
+### Next Steps
+- I'm planning to create a materialised view with like filters and column naming because the current dashboard numbers do not make sense, so basically need to include a sanity check on the data
+- Check how to deploy dlt via CRON, do I need to dockerise?

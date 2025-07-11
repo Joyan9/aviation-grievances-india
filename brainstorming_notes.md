@@ -1,8 +1,6 @@
-Let’s assume that the dataset updates everyday at 7:00 AM (It seems like the update frequency is sporadic)
-So the pipeline should run everyday around 9 AM and then again at 9PM
-
-Why the second run?
-- The second run should check the updated timestamp, if it is different from the first run then it should upload the latest data else skip
+- Let’s assume that the dataset updates everyday at 7:00 AM (It seems like the update frequency is sporadic)
+    - After monitoring the API for past week I can confirm that the updates are not constant, there is not fixed schedule
+    - Therefore the best option would be to run the pipeline everyday once a day
 
 What am I going to do with this data?
 - I want to create a web app to display this data
