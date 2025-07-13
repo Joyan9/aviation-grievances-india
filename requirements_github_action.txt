@@ -13,6 +13,6 @@ plotly==6.1.2
 scikit-learn==1.6.1
 seaborn==0.13.2
 tinycss2==1.4.0
-torch==2.7.0+cpu
+torch
 uri-template==1.3.0
 webcolors==24.11.1
